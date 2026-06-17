@@ -26,7 +26,7 @@
 <header class="hero wrap">
     <div class="eyebrow"><span class="rec-dot"></span> CH.00 — SIGNAL CHECK</div>
     <h1 class="hero-title">I don't write every line.<br>I <span class="accent">conduct</span> the AI that does.</h1>
-    <p class="hero-sub" id="bioText"></p>
+    <p class="hero-sub"><strong>Akhil</strong> — I'm a student in India with no formal coding background and an unreasonable amount of curiosity. I treat large language models less like autocomplete and more like a band I'm conducting — I set direction, structure, and judgment; they play the notes. It's a different way of building, and it's only getting louder.</p>
     <div class="cta-row">
         <a href="#work" class="btn btn-solid">Hear the work ↓</a>
         <a href="#contact" class="btn btn-ghost">Patch in →</a>
@@ -43,7 +43,68 @@
             <div class="eyebrow">THE BOARD</div>
             <h2>Three channels, all live in some way</h2>
         </div>
-        <div id="projectsContainer"></div>
+
+        <!-- PROJECT 1: ROCm Bridge -->
+        <article class="channel" data-color="coral" style="--target:72%">
+            <div class="channel__top">
+                <div>
+                    <div class="channel__tag">CH.01 — ON AIR</div>
+                    <h3>ROCm Bridge</h3>
+                </div>
+            </div>
+            <p>AMD's GPUs run on ROCm. Most existing AI code is written for CUDA, NVIDIA's platform. This tool reads CUDA and writes back ROCm-compatible code, so a project isn't locked to one company's hardware.</p>
+            <div class="tags">
+                <span>AI-GENERATED BACKEND</span>
+                <span>LIVE ON REPLIT</span>
+                <span>OPEN SOURCE</span>
+            </div>
+            <div class="channel__links">
+                <a href="https://rocm-bridge--akhill108.replit.app" target="_blank" rel="noopener noreferrer">Open the demo</a>
+                <a href="https://github.com/akhill108/rocm-bridge" target="_blank" rel="noopener noreferrer">Read the source</a>
+            </div>
+            <div class="fader">
+                <div class="fader__label"><span>Signal</span><span>Shipped — still tuning</span></div>
+                <div class="fader__track"><div class="fader__fill"></div></div>
+            </div>
+        </article>
+
+        <!-- PROJECT 2: Echo -->
+        <article class="channel" data-color="citrus" style="--target:25%">
+            <div class="channel__top">
+                <div>
+                    <div class="channel__tag">CH.02 — CUEING UP</div>
+                    <h3>Echo</h3>
+                </div>
+            </div>
+            <p>Long lectures and podcasts hide their best lines deep in the runtime. Echo transcribes a video, indexes it, and answers questions with the exact timestamp where it was said.</p>
+            <div class="tags">
+                <span>TRANSCRIPTION</span>
+                <span>EMBEDDINGS</span>
+                <span>RAG</span>
+            </div>
+            <div class="fader">
+                <div class="fader__label"><span>Signal</span><span>Concept stage</span></div>
+                <div class="fader__track"><div class="fader__fill"></div></div>
+            </div>
+        </article>
+
+        <!-- PROJECT 3: Open Channel -->
+        <article class="channel" data-color="violet" style="--target:6%">
+            <div class="channel__top">
+                <div>
+                    <div class="channel__tag">CH.03 — OPEN CHANNEL</div>
+                    <h3>Next signal: yours?</h3>
+                </div>
+            </div>
+            <p>This channel's unassigned. If you've got a problem worth automating, route it through — I'll bring the AI, you bring the brief.</p>
+            <div class="channel__links">
+                <a href="#contact">Start a channel</a>
+            </div>
+            <div class="fader">
+                <div class="fader__label"><span>Signal</span><span>Awaiting input</span></div>
+                <div class="fader__track"><div class="fader__fill"></div></div>
+            </div>
+        </article>
     </div>
 </section>
 
@@ -53,10 +114,32 @@
             <div>
                 <div class="eyebrow">CH.INFO — ABOUT</div>
                 <h2>The hands on the mixer</h2>
-                <p id="aboutText"></p>
-                <p id="locationText" style="margin-top: 1rem; font-family: var(--mono); font-size: 0.9rem; color: var(--ink-soft);"></p>
+                <p>I'm a student in India with no formal coding background and an unreasonable amount of curiosity. I treat large language models less like autocomplete and more like a band I'm conducting — I set direction, structure, and judgment; they play the notes. It's a different way of building, and it's only getting louder.</p>
+                <p style="margin-top: 1rem; font-family: var(--mono); font-size: 0.9rem; color: var(--ink-soft);">📍 Udhampur, Jammu and Kashmir</p>
             </div>
-            <div id="skillsContainer"></div>
+            <div>
+                <div class="meter-row" style="--target:90%">
+                    <div class="meter-row__label"><span>Prompt Engineering</span><span>90</span></div>
+                    <div class="meter-row__track"><div class="meter-row__fill"></div></div>
+                </div>
+                <div class="meter-row" style="--target:85%">
+                    <div class="meter-row__label"><span>Rapid Prototyping</span><span>85</span></div>
+                    <div class="meter-row__track"><div class="meter-row__fill"></div></div>
+                </div>
+                <div class="meter-row" style="--target:80%">
+                    <div class="meter-row__label"><span>Product Thinking</span><span>80</span></div>
+                    <div class="meter-row__track"><div class="meter-row__fill"></div></div>
+                </div>
+                <div class="meter-row" style="--target:55%">
+                    <div class="meter-row__label"><span>Cloud Deployment</span><span>55</span></div>
+                    <div class="meter-row__track"><div class="meter-row__fill"></div></div>
+                </div>
+                <div class="meter-row" style="--target:30%">
+                    <div class="meter-row__label"><span>Writing Code by Hand</span><span>30</span></div>
+                    <div class="meter-row__track"><div class="meter-row__fill"></div></div>
+                </div>
+                <p class="meters-caption">Levels, not limits — every channel here is still being tuned.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -65,76 +148,7 @@
     <div class="wrap">
         <div class="section-head">
             <div class="eyebrow">CH.BLOG — THOUGHTS</div>
-            <h2 id="blogTitle"></h2>
+            <h2>Thoughts on AI, building in public, and conducting machines</h2>
         </div>
-        <p id="blogDesc" style="color: var(--ink-soft); margin-bottom: 2rem;"></p>
-        <div class="blog-grid">
-            <a href="#" class="blog-card">
-                <span class="blog-card__date">Coming Soon</span>
-                <h3 class="blog-card__title">First post queued</h3>
-                <p class="blog-card__excerpt">New posts will appear here as I ship them. Subscribe to stay tuned.</p>
-            </a>
-        </div>
-    </div>
-</section>
-
-<section class="output" id="contact">
-    <div class="wrap">
-        <div class="eyebrow">OUTPUT — PATCH IN</div>
-        <h2>Let's route something together</h2>
-        <p>Best way to reach me, in order of speed:</p>
-        <div class="jacks" id="socialLinks"></div>
-    </div>
-</section>
-
-<footer id="footer"></footer>
-
-<script>
-    // Load config.json and populate the page
-    async function loadConfig() {
-        try {
-            const response = await fetch('config.json');
-            const config = await response.json();
-            
-            // Set page title
-            document.title = `${config.personal.name} — ${config.personal.title}`;
-            
-            // Hero bio
-            document.getElementById('bioText').innerHTML = 
-                `<strong>${config.personal.name}</strong> — ${config.personal.bio}`;
-            
-            // About section
-            document.getElementById('aboutText').textContent = config.personal.bio;
-            document.getElementById('locationText').textContent = `📍 ${config.personal.location}`;
-            
-            // Skills section
-            const skillsHTML = config.skills.map(skill => `
-                <div class="meter-row" style="--target:${skill.level}%">
-                    <div class="meter-row__label">
-                        <span>${skill.name}</span>
-                        <span>${skill.level}</span>
-                    </div>
-                    <div class="meter-row__track">
-                        <div class="meter-row__fill"></div>
-                    </div>
-                </div>
-            `).join('');
-            document.getElementById('skillsContainer').innerHTML = skillsHTML + 
-                `<p class="meters-caption">Levels, not limits — every channel here is still being tuned.</p>`;
-            
-            // Projects section
-            const projectsHTML = config.projects.map(project => `
-                <article class="channel" data-color="${project.color}" style="--target:${project.progress}%">
-                    <div class="channel__top">
-                        <div>
-                            <div class="channel__tag">${project.channel} — ${project.status}</div>
-                            <h3>${project.title}</h3>
-                        </div>
-                    </div>
-                    <p>${project.description}</p>
-                    ${project.tags.length > 0 ? `
-                        <div class="tags">
-                            ${project.tags.map(tag => `<span>${tag}</span>`).join('')}
-                        </div>
-                    ` : ''}`
+        <p style="color: var(--ink-soft); margin-bottom: 2rem;">Long-form thoughts
 
