@@ -1,0 +1,93 @@
+{
+  "personal": {
+    "name": "Akhil",
+    "title": "Builder, directed by AI",
+    "location": "Udhampur, Jammu and Kashmir",
+    "email": "akhilmathurofficial@gmail.com",
+    "bio": "I'm a student in India with no formal coding background and an unreasonable amount of curiosity. I treat large language models less like autocomplete and more like a band I'm conducting — I set direction, structure, and judgment; they play the notes. It's a different way of building, and it's only getting louder."
+  },
+  "social": {
+    "github": "https://github.com/akhill108",
+    "linkedin": "https://linkedin.com/in/akhill108",
+    "instagram": "https://instagram.com/akhill.108",
+    "twitter": ""
+  },
+  "projects": [
+    {
+      "id": "rocm-bridge",
+      "channel": "CH.01",
+      "status": "ON AIR",
+      "color": "coral",
+      "title": "ROCm Bridge",
+      "description": "AMD's GPUs run on ROCm. Most existing AI code is written for CUDA, NVIDIA's platform. This tool reads CUDA and writes back ROCm-compatible code, so a project isn't locked to one company's hardware.",
+      "tags": ["AI-GENERATED BACKEND", "LIVE ON REPLIT", "OPEN SOURCE"],
+      "links": [
+        {
+          "text": "Open the demo",
+          "url": "https://rocm-bridge--akhill108.replit.app"
+        },
+        {
+          "text": "Read the source",
+          "url": "https://github.com/akhill108/rocm-bridge"
+        }
+      ],
+      "signal": "Shipped — still tuning",
+      "progress": 72
+    },
+    {
+      "id": "echo",
+      "channel": "CH.02",
+      "status": "CUEING UP",
+      "color": "citrus",
+      "title": "Echo",
+      "description": "Long lectures and podcasts hide their best lines deep in the runtime. Echo transcribes a video, indexes it, and answers questions with the exact timestamp where it was said.",
+      "tags": ["TRANSCRIPTION", "EMBEDDINGS", "RAG"],
+      "links": [],
+      "signal": "Concept stage",
+      "progress": 25
+    },
+    {
+      "id": "next-channel",
+      "channel": "CH.03",
+      "status": "OPEN CHANNEL",
+      "color": "violet",
+      "title": "Next signal: yours?",
+      "description": "This channel's unassigned. If you've got a problem worth automating, route it through — I'll bring the AI, you bring the brief.",
+      "tags": [],
+      "links": [
+        {
+          "text": "Start a channel",
+          "url": "#contact"
+        }
+      ],
+      "signal": "Awaiting input",
+      "progress": 6
+    }
+  ],
+  "skills": [
+    {
+      "name": "Prompt Engineering",
+      "level": 90
+    },
+    {
+      "name": "Rapid Prototyping",
+      "level": 85
+    },
+    {
+      "name": "Product Thinking",
+      "level": 80
+    },
+    {
+      "name": "Cloud Deployment",
+      "level": 55
+    },
+    {
+      "name": "Writing Code by Hand",
+      "level": 30
+    }
+  ],
+  "blog": {
+    "enabled": true,
+    "description": "Thoughts on AI, building in public, and conducting machines"
+  }
+}
